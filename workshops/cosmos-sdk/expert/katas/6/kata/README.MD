@@ -1,4 +1,4 @@
-# Path of the Expert - Contexts
+# Path of the Expert - Cosmovisor
 
 This training exercise is a **expert-level** course on Cosmos SDK that serves as a starting point for L1 developers looking to onboard the Cosmos.
 
@@ -25,8 +25,8 @@ These instructions will help you prepare for the `training step` and ensure that
 First we setup a directory for our exercise files. It's pretty straight forward:
 
 ```bash
-mkdir kata1
-cd kata1
+mkdir kata6
+cd kata6
 ```
 
 ## Conclusion
