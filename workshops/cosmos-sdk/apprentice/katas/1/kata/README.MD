@@ -67,11 +67,13 @@ The above CLI commands are used to setup up our `Go` module for working with pro
 
 ### Step #3: Create `protobuf` message contract
 
-To create a simple message contract, we can create a file named `person.proto` and add the following content:
+To create a simple message contract, we can create a file named `person.proto`:
 
 ```bash
 vim person.proto
 ```
+
+Add the following content:
 
 ```bash
 PROTO_MSG="syntax = \"proto3\";
