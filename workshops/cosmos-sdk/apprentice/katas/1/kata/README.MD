@@ -70,6 +70,10 @@ The above CLI commands are used to setup up our `Go` module for working with pro
 To create a simple message contract, we can create a file named `person.proto` and add the following content:
 
 ```bash
+vim person.proto kata1
+```
+
+```bash
 PROTO_MSG="syntax = \"proto3\";
 option go_package = \"proto/main\";
 
