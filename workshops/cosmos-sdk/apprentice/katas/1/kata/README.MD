@@ -59,9 +59,9 @@ The above CLI commands are used to setup up our `Go` module for working with pro
 
 - `go mod init proto`: Initializes a new Go module named `proto` in the current directory. This command creates a `go.mod` file, which is used to manage dependencies for the module.
 
-- `go get google.golang.org/`protobuf`/proto@latest`: Downloads the latest version of the `proto` package from the `google.golang.org/`protobuf`` module and adds it as a dependency to the current module. The proto package provides support for working with protocol buffers in Go.
+- `go get google.golang.org/protobuf/proto@latest`: Downloads the latest version of the `proto` package from the `google.golang.org/`protobuf`` module and adds it as a dependency to the current module. The proto package provides support for working with protocol buffers in Go.
 
-- `go get google.golang.org/`protobuf`/cmd/protoc-gen-go@latest`: Downloads the latest version of the `protoc-gen-go` CLI from the `google.golang.org/`protobuf`` module and installs it in the bin directory of your `$GOPATH`. This tool is used to generate Go code from protocol buffer definitions.
+- `go get google.golang.org/protobuf/cmd/protoc-gen-go@latest`: Downloads the latest version of the `protoc-gen-go` CLI from the `google.golang.org/`protobuf`` module and installs it in the bin directory of your `$GOPATH`. This tool is used to generate Go code from protocol buffer definitions.
 
 - `go get google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest`: Downloads the latest version of the `protoc-gen-go-grpc` cLI from the `google.golang.org/grpc` module and installs it in the bin directory of your `$GOPATH`. This tool is used to generate Go code for gRPC servers and clients from protocol buffer definitions.
 
